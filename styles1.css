@@ -1,14 +1,12 @@
 body{
-    background-color: aqua;
+    background-color: turquoise;
+    font-size: 20px;
 }
 .container {
-
-
     
-    margin: auto;
-    margin-top: 50px;
     display: grid;
-    border: 2px rgb(233, 11, 185);
+    margin: auto;
+  
     grid-template-columns:200px 300px 300px;
     grid-template-rows: 250px 600px;
     grid-template-areas: 
@@ -19,8 +17,9 @@ body{
 
 .box{
 
-    border: 20px red;
-    background: rgb(9, 206, 35);
+    display:flex;
+    border: 1px solid red;
+    padding: 15px;
 }
 
 .header{
