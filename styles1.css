@@ -1,5 +1,6 @@
 body{
     background-color: turquoise;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
 }
 .container {
@@ -8,7 +9,7 @@ body{
     margin: auto;
   
     grid-template-columns:200px 300px 300px;
-    grid-template-rows: 250px 600px;
+    grid-template-rows: 200px 600px;
     grid-template-areas: 
     "hd hd hd hd hd hd hd hd"
     "sd sd mn mn mn mn mn mn"
